@@ -25,6 +25,10 @@ a {
   align-items: center;
 }
 
+.img_p{
+  height: 1000px;
+}
+
 .meme__container{
   display: flex;
   width: 80%;
