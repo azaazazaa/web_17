@@ -1,0 +1,110 @@
+* {
+  font-family: 'Pixelify Sans', sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+background: linear-gradient(90deg, rgba(192,56,236,1) 0%, rgba(126,46,166,1) 15%, rgba(234,138,255,1) 75%);
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+.header {
+  height: 150px;
+  background-color: rgb(234, 48, 255);
+  color: black;
+  font-family: 'Marck Script', cursive;
+  font-size: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.meme__container{
+  display: flex;
+  width: 80%;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.meme{
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: stretch; 
+}
+
+.col_container {
+  margin-top: 20px;
+}
+
+.meme__container{
+  margin: 20px auto;
+  
+}
+
+.meme__img {
+  height: 220px;
+  object-fit: cover;
+}
+
+
+.meme__discription{
+  padding: 30px 20px;
+  background-color: rgb(64, 255, 64);
+  height: 100px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+
+}
+
+.main__meme{
+  width: 80%;
+  background-color: yellow;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: stretch;
+  padding: 40px 30px;
+  margin: 20px auto;
+}
+
+.col_container {
+  display: flex;
+  gap: 20px;
+
+}
+.col_container > div {
+  width: 50%;
+}
+
+
+.font_regular {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 400;
+}
+
+.main__meme > img {
+  width: 100%;
+}
+
+.footer {
+  height: 150px;
+  background-color: rgb(0, 0, 0);
+  color: gray;
+  font-family: 'Marck Script', cursive;
+  font-size: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
