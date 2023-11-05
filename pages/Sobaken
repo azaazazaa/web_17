@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sobaken</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Marck+Script&family=Pacifico&family=Pixelify+Sans&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="header">
+    Мемы - точки
+  </header>
+  <section class="main__meme">
+    <img src="https://backupuusites.hb.bizmrg.com/iblock/1c1/1c168460f4e61a700f2cd6d3dce8f9cc/d242cd25bc6927a94ff89fed4d188776.jpg" alt="meme">
+    <div>
+      <h1>Меня замечают лучше!</h1>
+      <h2 class="font_regular">Так и есть основана на личном потном опыте</h2>
+      <div class="col_container">
+        <div class="font_regular col_1">
+          ничего обычно просто мем про собаку
+        </div>
+        <div class="font_regular col_2">
+            Забавные картинки в интернете давно стали частью нашей жизни: мы делимся ими с друзьями, вкладываем в сообщение определенные эмоции и радуемся, когда нас понимают. Но мемы — это не всегда изображения и не обязательно — в соцсетях. Феномен мема значительно шире сетевого фольклора. Сегодня это также инструмент SMM-специалистов и маркетологов, который может приносить реальную пользу бизнесу.
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer class="footer">
+    Мемы - точки
+  </footer>
+</body>
+</html>
